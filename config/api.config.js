@@ -27,5 +27,6 @@ module.exports = {
 
   // The directLinkRegex is used to match the direct link of the file from the response of the API. We originally use this to prevent
   // unauthorised use of the proxied download feature - but that is disabled for now. So you can safely ignore this settings.
-  directLinkRegex: 'public[.].*[.]files[.]1drv[.]com',
+  // directLinkRegex: 'public[.].*[.]files[.]1drv[.]com',
+  directLinkRegex: '.*[-]my[.]sharepoint[.]com',
 }
